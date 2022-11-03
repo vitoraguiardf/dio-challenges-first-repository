@@ -4,7 +4,7 @@ Repositório criado para o Desafio de Projeto Git/GitHub.
 
 ## Links Úteis
 
-+ [Guia de MarkDown](https://www.markdownguide.org/basic-syntax/)
++ [Guia de MarkDown](https://www.markdownguide.org/)
     + [Sintaxe Básica MarkDown](https://www.markdownguide.org/basic-syntax/)
 
 + [Tutoriais da Atlassian](https://www.atlassian.com/br/git/tutorials)
