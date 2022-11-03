@@ -1,0 +1,6 @@
+Comandos para configurar o Autor:
+
+git config --global user.email "meu_endereco_de_email"
+
+git config --global user.name "nome_completo"
+

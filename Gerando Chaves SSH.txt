@@ -1,0 +1,25 @@
+Executar no terminal Bash
+
+=========== Passos para criar a Chave SSH na maquina local ===========
+
+Cria chave ssh:
+ssh-keygen -t ed25519 -C meu_endereco_de_email
+
+Navegar para pasta da chave e usar o seguinte comando pra exibir:
+cat id_ed25519.pub
+
+Ex. de retorno: (Essa informação deve ser inserida na relação de SSH do GitHub)
+ssh-ed25519 AAA********************************Yd/1+***********************MQrV/7 meu_endereco_de_email
+
+=========== Passos para ativar a Chave SSH na maquina local ===========
+
+eval $(ssh-agent -s)
+
+Ex. de retorno:
+Agent pid 1234
+
+$ ssh-add id_ed25519
+Enter passphrase for id_ed25519:*****
+
+Ex. de retorno:
+Identity added: id_ed25519 (meu_endereco_de_email)
